@@ -1,0 +1,350 @@
+body {
+    background-color: rgb(27, 25, 25);
+}
+
+.container {
+    background-color: rgb(240, 10, 10);
+}
+
+.top-header {
+    background-color: black;
+    display: flex;
+    align-items: flex-start;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 20px;
+    margin: -20px;
+    font-family: var(--font-family, CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, sans-serif)), Helvetica, Arial, sans-serif;
+}
+
+.box {
+    border: 1px solid black;
+    background-color: black;
+    border-radius: 15px;
+    margin-top: 190px;
+    height: 1000px;
+    width: 600px;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    bottom: 30%;
+    transform: translate(-50%, -50%);
+
+}
+.overlay {
+    background-color: black;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    bottom: 30%;
+    right: 0;
+    border-radius: 15px;
+}
+
+
+h1 {
+    color: white;
+    font-size: 50px;
+    font-family: var(--font-family, CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, sans-serif)), Helvetica, Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-size-1 {
+    height: 50px;
+    margin-top: 13px;
+    margin-left: 30px;
+}
+.img-size {
+    height: 30px;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.google {
+    border: 0.5px solid white;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 30px;
+    width: 20px;
+    height: 5%;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    bottom: 75%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-family, CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, sans-serif)), Helvetica, Arial, sans-serif;
+
+}
+
+.facebook {
+    border: 0.5px solid white;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 30px;
+    width: 50%;
+    height: 5%;
+    position: absolute;
+    top: 23%;
+    left: 50%;
+    bottom: 75%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-family, CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, sans-serif)), Helvetica, Arial, sans-serif;
+
+}
+
+.apple {
+    border: 0.5px solid white;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 30px;
+    width: 50%;
+    height: 5%;
+    position: absolute;
+    top: 31%;
+    left: 50%;
+    bottom: 75%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-family, CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, sans-serif)), Helvetica, Arial, sans-serif;
+
+}
+
+.phone {
+    border: 0.2px solid white;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 30px;
+    width: 50%;
+    height: 5%;
+    position: absolute;
+    top: 39%;
+    left: 50%;
+    bottom: 75%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-family, CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, sans-serif)), Helvetica, Arial, sans-serif;
+
+}
+
+.login-button {
+    color: white;
+}
+
+.names {
+    font-family: var(--font-family, CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, sans-serif)), Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+.email {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    bottom: 75%;
+    transform: translate(-50%, -50%);
+}
+
+.input-box {
+    border: 0.2px solid white;
+    background-color: rgb(27, 26, 26);
+    height: 40px;
+    width: 370px;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 8px;
+}
+
+.password {
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    bottom: 75%;
+    transform: translate(-50%, -50%);
+}
+.checkbox {
+    display: flex;
+    align-items: first baseline;
+    position: absolute;
+    top: 69%;
+    left: 30%;
+    bottom: 75%;
+    transform: translate(-50%, -50%);
+}
+.text {
+    color: white;
+    margin-top: 2px;
+}
+.button {
+     position: absolute;
+    top: 77%;
+    left: 50%;
+    bottom: 75%;
+    transform: translate(-50%, -50%);
+}
+.button-1 {
+    height: 50px;
+    width: 330px;
+    border-radius: 50px;
+    background-color: #1ed760;
+    border: 1px solid #1ed760;
+    font-size: 18px;
+}
+.forget-password {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
+    color: white;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    bottom: 75%;
+    transform: translate(-50%, -50%);
+    font-family: var(--font-family, CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, sans-serif)), Helvetica, Arial, sans-serif;
+    font-size: 15px;
+}
+.last-line {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    bottom: 75%;
+    transform: translate(-50%, -50%);
+    font-family: var(--font-family, CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, sans-serif)), Helvetica, Arial, sans-serif;
+    font-size: 15px;
+}
+.last-line-2 {
+    text-decoration: underline;
+    color: white;
+}
+.top-header-2 {
+    display: flex;
+    justify-content: space-between;
+    height: 10%;
+    width: 65%;
+    background-color: rgb(17, 15, 15);
+    border-radius: 10px;
+}
+.top-header-3 {
+    display: flex;
+    justify-content: space-between;
+    height: 80%;
+    width: 34%;
+    background-color: rgb(196, 185, 185);
+    border-radius: 10px;
+}
+.head {
+    color: white;
+    font-size: 30px;
+}
+.main {
+    color: rgb(138, 134, 134);
+    font-size: 16px;
+    margin-top: -20px;
+    margin-left: 70px;
+    font-family: var(--font-family, CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, sans-serif)), Helvetica, Arial, sans-serif;
+}
+.right {
+    border: 5px solid rgb(17, 15, 15);
+    margin-left: 890px;
+    margin-right: 10px;
+    background-color: rgb(17, 15, 15);
+    height: 615px;
+    width: 33%;
+    border-radius: 10px;
+    margin-top: -95px;
+}
+.left {
+    border: 5px solid rgb(17, 15, 15);
+    background-color: rgb(17, 15, 15);
+    height: 510px;
+    width: 64%;
+    border-radius: 10px;
+    margin-top: -517px;
+    /* display: flex;
+    justify-content: space-between; */
+}
+.main-1 {
+    color: rgb(138, 134, 134);
+    font-size: 16px;
+    margin-top: -25px;
+    margin-left: -230px;
+    /* border: 1px solid white; */
+    width: 80%;
+    height: 30px;
+    font-family: var(--font-family, CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, sans-serif)), Helvetica, Arial, sans-serif; 
+}
+.right-head {
+    margin-left: 730px;
+    margin-top: -50px;
+}
+.list {
+    display: flex;
+    justify-content: space-between;
+}
+.list-1 {
+    color:white;
+    font-family: var(--font-family, CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, sans-serif)), Helvetica, Arial, sans-serif; 
+    background-color: rgb(48, 47, 47);
+    padding: 8px;
+    margin-left: 20px;
+    font-size: 13px;
+    margin-top: 30px;
+    border-radius: 30px;
+    width: 60px;
+    text-align: center;
+}
+.list-2 {
+    color:white;
+    font-family: var(--font-family, CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, sans-serif)), Helvetica, Arial, sans-serif; 
+    background-color: rgb(48, 47, 47);
+    padding: 8px;
+    margin-left: 105px;
+    font-size: 13px;
+    margin-top: -46px;
+    border-radius: 30px;
+    width: 50px;
+    text-align: center;
+}
+.list-3 {
+    color: white;
+    font-size: 13px;
+    font-family: var(--font-family, CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, sans-serif)), Helvetica, Arial, sans-serif; 
+    margin-top: -27px;
+    margin-left: 35px;
+}
+.style {
+    margin-left: 15px;
+}
+.title-list {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    color: rgb(138, 134, 134);
+    font-size: 12px;
+    font-family: var(--font-family, CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, sans-serif)), Helvetica, Arial, sans-serif; 
+
+}
+.line {
+    height: 1px;
+    width: 100%;
+    margin-top: -5px;
+    background-color: rgb(138, 134, 134);
+}
