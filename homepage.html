@@ -4,63 +4,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-        integrity="sha512-..." crossorigin="anonymous" />
-
-    <title>Spotify - Web Player: Music for everyone </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="home.css">
+    <title>Document</title>
 </head>
 
 <body>
-    <header class="top-header-2">
-        <div>
-            <i class='fas fa-home'
-                style='font-size:18px;color:rgb(122, 120, 120);margin-top:20px;margin-right:20px;margin-left: 20px;'></i>
-            <h1 class="main">Home</h1>
-            <i class='fas fa-search'
-                style='font-size:18px;color:rgb(122, 120, 120);margin-top:20px;margin-right:20px;margin-left: 20px;'></i>
-            <h1 class="main">Search</h1>
+    <!-- wrapper -->
+    <div class="wrapper">
+        <!-- sidebar -->
+        <div class="sidebar">
+            <div class="icons">
+                <i class="fas fa-home"></i>
+                <h4>Home</h4>
+            </div>
+            <div class="icons">
+                <i class="fas fa-search"></i>
+                <h4>Search</h4>
+            </div>
+            <hr>
+            <div class="icons-2">
+                <div>
+                    <i class="fas fa-book"></i>
+                    <h4>Your Libary</h4>
+                </div>
+                <div>
+                    <i class="fas fa-plus"></i>
+                    <i class="fas fa-arrow-right	" style="margin-left: 20px;"></i>
+                </div>
+            </div>
+            <div class="list">
+                <p class="list-1">Playlist</p>
+                <p class="list-1">Artist</p>
+            </div>
+            <div class="scrollbar">
+                <div class="icons-2">
+                    <div class="list-2">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <div class="list-2">
+                        <h5>Recents</h5>
+                        <i class="fas fa-caret-down	"></i>
+                    </div>
+                </div>
+                <div class="song-list">
+                    <div class="songs-list">
+                        <div>
+                            <img src="https://misc.scdn.co/liked-songs/liked-songs-640.png" class="img" alt="">
+                        </div>
+                        <div>
+                            <h3>Liked Songs</h3>
+                            <i class="fas fa-thumbtack	" style="color:#1ed760; margin-top: 10px; rotate: 20px;"></i>
+                            <p class="list" style="margin-top: -20px;">Playlist . 30 song</p>
+                        </div>
+                    </div>
+                    <div class="songs-list">
+                        <img src="https://i.scdn.co/image/ab6761610000101f18134412c2bea1faf213fc6d" class="img-2"
+                            alt="">
+                        <div>
+                            <h3>Neha Kakkar</h3>
+                            <p class="artist">Artist</p>
+                        </div>
+                    </div>
+                    <div class="songs-list">
+                        <img src="https://i.scdn.co/image/ab6761610000101ff9301ee82e1eee3128eff931" class="img-2"
+                            alt="nickyjam">
+                        <div>
+                            <h3>Nicky Jam</h3>
+                            <p class="artist">Artist</p>
+
+                        </div>
+                    </div>
+                    <div class="songs-list">
+                        <img src="https://i.scdn.co/image/ab6761610000101f584f79075db4e0c9304a7f85" class="img-2"
+                            alt="daddyyankee">
+                        <div>
+                            <h3>Daddy Yankee</h3>
+                            <p class="artist">Artist</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </header>
-    <div class="right">
-        <h1>rieuncj</h1>
+
+        <!-- main-content -->
+        <div class="main-content">
+
+        </div>
+        <!-- player -->
+        <div class="player"></div>
     </div>
-    <div class="left">
-        <div class="left-head">
-            <i class='fas fa-book'
-                style='font-size:18px;color:rgb(122, 120, 120);margin-top:20px;margin-right:20px;margin-left: 20px; font-size: 18px;'></i>
-            <h1 class="main-1">Your Library</h1>
-        </div>
-        <div class="right-head">
-            <i class='fas fa-plus' 
-            style="font-size:18px; color:rgb(122, 120, 120); margin-right: 30px; margin-top: 20px; font-size: 18px;"></i>
-            <i class='fas fa-qrcode' 
-            style="font-size:18px; color:rgb(122, 120, 120); margin-right: 30px;"></i>
-            <i class='fas fa-arrow-left	' 
-            style="font-size:18px; color:rgb(122, 120, 120); margin-right: 10px; font-size: 18px;"></i>
-        </div>
-        <div class="list">
-            <div>
-                <p class="list-1">Playlists</p>
-                <p class="list-2">Artists</p>
-            </div>
-            <div>
-                <i class='fas fa-search'
-                style="font-size: 18px; color: rgb(122, 120, 120); margin-right: 115px; margin-top: 30px;"></i>
-                <p class="list-3">Recents
-                    <span class="style">
-                    <i class='fas fa-caret-down'
-                    style="font-size: 24px; color:rgb(122, 120, 120);"></i></span>	
-                   </p>
-            </div>
-        </div>
-        <div class="title-list">
-            <p>Title</p>
-            <p>Date Added</p>
-            <p>Played</p>
-        </div>
-        <div class="line"></div>
     </div>
 </body>
 
