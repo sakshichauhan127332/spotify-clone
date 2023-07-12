@@ -20,10 +20,10 @@ body {
 /* sidebar */
 .sidebar {
     height: calc(100% - 8px);
-    width: calc(24%);
+    width: calc(30%);
     margin-left: 8px;
     margin-top: 8px;
-    background-color: #232323;
+    background-color: #121212;
     border-radius: 8px;
     display: list-item;
 }
@@ -137,7 +137,7 @@ h5 {
     margin-left: 8px;
     margin-top: 8px;
     border-radius: 8px;
-    background-color: #232323;
+    background-color: #121212;
 }
 .player {
     height: 92px;
