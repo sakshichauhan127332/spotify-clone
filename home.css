@@ -32,7 +32,7 @@ body {
 .icons {
     margin-left: 35px;
     margin-top: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     color: #b3b3b3;
     font-size: 18px;
     font-weight: normal;
@@ -64,13 +64,6 @@ h5 {
     margin-right: 10px;
 }
 
-.scrollbar {
-    height: 250px;
-    overflow-y: auto;
-    background-color: transparent;
-    /* overflow-y: hidden; */
-}
-
 .list {
     display: flex;
     align-items: flex-start;
@@ -98,11 +91,12 @@ h5 {
 
 .song-list {
     display: inline-block;
+    background-color: #101010;
 
 }
 
 .songs-list {
-    width: 280px;
+    width: 350px;
     height: 60px;
     border: 1px solid transparent;
     display: flex;
@@ -128,6 +122,8 @@ h5 {
 .artist {
     margin-top: 10px;
     color: #b3b3b3;
+    font-family: var(--font-family, CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, sans-serif));
+    font-size: 14px;
 }
 
 /* main-content */
@@ -137,8 +133,114 @@ h5 {
     margin-left: 8px;
     margin-top: 8px;
     border-radius: 8px;
-    background-color: #121212;
+    overflow: auto;
+    height: 100%;
+    background-color: #1f1f1f;
 }
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+
+.left {
+    margin: 20px;
+    color: #979797;
+    font-size: 28px;
+}
+
+.right {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-left: 5px;
+}
+
+.explore {
+    background-color: white;
+    border-radius: 50px;
+    font-weight: bold;
+    height: 30px;
+    width: 140px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-family, CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, sans-serif));
+    margin-top: 20px;
+    gap: 0px;
+
+}
+
+.install {
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    border-radius: 50px;
+    height: 30px;
+    font-family: var(--font-family, CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, sans-serif));
+    font-size: 14px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.first-line {
+    font-size: 24px;
+    color: white;
+    margin-left: 20px;
+    font-weight: bold;
+    font-family: var(--font-family, CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, sans-serif));
+
+}
+
+.box {
+    height: 300px;
+    width: 100%;
+    margin-top: 20px;
+    gap: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.boxs {
+    height: 270px;
+    width: 210px;
+    border-radius: 8px;
+    background-color: #171717;
+}
+
+.img-3 {
+    width: 170px;
+    height: 170px;
+    border-radius: 4px;
+    margin: 20px;
+}
+
+.like {
+    margin-left: 28px;
+    margin-top: -15px;
+}
+
+.artist-2 {
+    margin-top: 10px;
+    margin-left: 27px;
+    color: #b3b3b3;
+    font-family: var(--font-family, CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, sans-serif));
+    font-size: 14px;
+}
+
+.img-4 {
+    height: 170px;
+    width: 170px;
+    margin: 20px;
+    border-radius: 50%;
+}
+
 .player {
     height: 92px;
     width: 100%;
